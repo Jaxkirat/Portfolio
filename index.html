@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+        <header class = "header">    
+
+            <a href = "#home" class = "logo">
+                Jaskirat <span>Singh</span>
+            </a>
+
+            <div id="menu-icons">
+              <i class="bx bx-menu" id="menu-icon"></i>
+              <i class="bx bx-x" id="close-icon" style="display: none;"></i>
+            </div>
+
+            <nav class = "navbar">
+                <a href = "#home">Home</a>
+                <a href = "#about">About </a>
+                <a href = "#skills">Skills </a>
+                <a href = "#projects">Projects </a>
+                <a href = "#contact">Contact</a>
+            </nav>
+            
+        </header>
+
+        <section class="home" id="home">
+          <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+          <div class="home-content">
+              <h1> Hi, this is <span>Jaskirat</span></h1>
+              <h2>I'm a <span class="multiple-text"></span></h2>
+              <p> A passionate software engineer with a strong focus on real-world applications of technology. </p>
+              <div class="social-icons">
+                  <a href="https://github.com/Jaxkirat">
+                      <i class="bx bxl-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/jaskiratsingh25">
+                      <i class="bx bxl-linkedin-square"></i>
+                  </a>
+              </div>
+              <div class="btn-group">
+                  <a href="#contact" class="btn">Contact</a>
+                  <a href="CV_Jaskirat.pdf" class="btn" download>Download CV</a>
+              </div>         
+          </div>
+          <div class="home-img">
+              <img src="image.jpg" alt="Your Image">
+          </div>
+      </section>    
+
+      <section class="about" id="about">
+
+        <div class="about-img">
+          <img src="image2.jpg" alt="">
+        </div>
+
+
+        <div class="about-content">
+          <h2>About <span>Me</span></h2>
+          <p>I am a passionate technologist with expertise in machine learning, AI, and full-stack development. My focus is on creating innovative solutions that have real-world applications and streamline business processes. By blending my skills across these areas, I aim to deliver practical, user-centered technology that sets me apart in the tech landscape, making me a distinctive and sought-after professional.</p>
+          <a href="#projects" class="btn"> Explore My Projects</a>
+        </div>  
+      </section>
+
+      <section class="Skills" id="skills">
+
+        <h2 class="heading">Skills</h2>
+
+        <div class="skills-container">
+          <div class="skills-box">
+            <div class="skills-info">              
+              <i class='bx bx-brain'></i>
+              <h4>Machine Learning</h4>
+              <p>Proficient in designing and implementing machine learning models using Python, with hands-on experience in PyTorch, scikit-learn, and Keras.</p>
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills-info">
+              <i class='bx bx-stats'></i>
+              <h4>Data Science</h4>
+              <p>Skilled in data analysis, visualization, and statistical modeling, with a strong ability to extract actionable insights from complex datasets.</p>
+            </div>
+          </div>
+
+          <div class="skills-box">
+            <div class="skills-info">
+              <i class='bx bx-code-alt'></i>
+              <h4>Full-Stack Development</h4>
+              <p>Experienced in full-stack development, adept at building robust applications from the ground up.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+
+          <div class="project-card">
+            <img src="project1.jpg" alt="">
+
+            <h3>Talk2PDF</h3>
+
+            <p> A chatbot that let's you interact with custom PDF uploaded by the user.</p>
+            
+            <a href="https://github.com/Jaxkirat/Talk2PDF" class="btn">Review Project</a>
+
+          </div>
+
+          <div class="project-card">
+            <img src="project4.jpg" alt="">
+
+            <h3>TRYONline</h3>
+
+            <p> A virtual clothes fitting room. Created by using Diffusion and Computer Vision.</p>
+
+            <a href="https://github.com/Jaxkirat/TRYONline" class="btn">Review Project</a>
+
+          </div>
+
+          <div class="project-card">
+            <img src="project2.jpg" alt="">
+
+            <h3>CNG Price Predictor</h3>
+
+            <p>A full-stack Natural Gas Price Predcition application. I made this project during my internship at ONGC.</p>
+
+            <a href="https://github.com/Jaxkirat/Natural-Gas-Price-Prediction-App" class="btn">Review Project</a>
+
+          </div>
+
+          <div class="project-card">
+            <img src="project3.png" alt="">
+
+            <h3>Flight Fare Predcition</h3>
+
+            <p>A full-stack price prediction application that let's user know the future fare of their particular flight based on their preferences. </p>
+
+            <a href="https://github.com/Jaxkirat/Flight-Fare-Prediction" class="btn">Review Project</a>
+
+          </div>
+
+
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+        <h2 class="heading">Contact <span>Me</span></h2>
+    
+        <form id="contact-form">
+            <div class="input-group"></div>
+    
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email">
+            </div>
+    
+            <div class="input-box">
+                <input type="number" name="phone" placeholder="Phone Number">
+                <input type="text" name="subject" placeholder="Subject">
+            </div>
+    
+            <div class="input-group-2">
+                <textarea name="message" placeholder="Your Message" cols="30" rows="10"></textarea>
+                
+
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    
+
+      <footer class="footer">
+        
+        <div class="social-icons">
+          <a href="https://github.com/Jaxkirat">
+              <i class="bx bxl-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/jaskirat-singh-633990208/">
+              <i class="bx bxl-linkedin-square"></i>
+          </a>
+        </div>
+        
+              
+        <p class="copyright">
+          &copy; Jaskirat Singh | All Rights Reserved
+        
+
+        </p>
+
+      </footer>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
