@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
 
@@ -28,7 +29,7 @@
             <nav class = "navbar">
                 <a href = "#home">Home</a>
                 <a href = "#about">About </a>
-                <a href = "#skills">Skills </a>
+                <a href = "#expertise">Expertise </a>
                 <a href = "#projects">Projects </a>
                 <a href = "#contact">Contact</a>
             </nav>
@@ -51,7 +52,7 @@
               </div>
               <div class="btn-group">
                   <a href="#contact" class="btn">Contact</a>
-                  <a href="CV_Jaskirat_Singh.pdf" class="btn" download>Download CV</a>
+                  <a href="CV_Jaskirat_AI.pdf" class="btn" download>Download CV</a>
               </div>         
           </div>
           <div class="home-img">
@@ -61,102 +62,186 @@
 
       <section class="about" id="about">
 
-        <div class="about-img">
-          <img src="image2.jpg" alt="">
-        </div>
-
-
         <div class="about-content">
           <h2>About <span>Me</span></h2>
-          <p>I am a passionate technologist with expertise in machine learning, AI, and full-stack development. My focus is on creating innovative solutions that have real-world applications and streamline business processes. By blending my skills across these areas, I aim to deliver practical, user-centered technology that sets me apart in the tech landscape, making me a distinctive and sought-after professional.</p>
-          <a href="#projects" class="btn"> Explore My Projects</a>
-        </div>  
+          <p>I'm an AI Engineer focused on building production-ready intelligent systems that bridge cutting-edge AI research with real-world business applications. My work spans large language models, RAG, multimodal AI, agentic workflows, and full-stack product development.</p>
+          <p>Over the past few years, I've designed and deployed AI solutions across financial intelligence, compliance, content automation, and generative AI — taking ambitious ideas from concept to production across the entire AI stack.</p>
+          <p>Outside of engineering, I enjoy public speaking, performing music, and exploring new technologies.</p>
+
+          <div class="about-metrics">
+            <div class="metric">
+              <h3>3+</h3>
+              <p>Years Industry Experience</p>
+            </div>
+            <div class="metric">
+              <h3>10+</h3>
+              <p>AI Products Built</p>
+            </div>
+            <div class="metric">
+              <h3>40+</h3>
+              <p>AI Consultations Delivered</p>
+            </div>
+            <div class="metric">
+              <h3>Millions</h3>
+              <p>of Documents Processed</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-img">
+          <div class="swiper about-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="Carousel/1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="Carousel/2.jpeg" alt=""></div>
+              <div class="swiper-slide"><img src="Carousel/3.JPG" alt=""></div>
+              <div class="swiper-slide"><img src="Carousel/4.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="Carousel/5.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="Carousel/6.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="Carousel/7.jpg" alt=""></div>
+            </div>
+          </div>
+        </div>
+
       </section>
 
-      <section class="Skills" id="skills">
+      <section class="expertise" id="expertise">
 
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading">Core <span>Expertise</span></h2>
 
-        <div class="skills-container">
-          <div class="skills-box">
-            <div class="skills-info">              
-              <i class='bx bx-brain'></i>
-              <h4>Machine Learning</h4>
-              <p>Proficient in designing and implementing machine learning models using Python, with hands-on experience in PyTorch, scikit-learn, and Keras.</p>
+        <div class="expertise-grid">
+
+          <div class="expertise-card">
+            <i class='bx bx-brain'></i>
+            <h3>Generative AI &amp; LLMs</h3>
+            <div class="card-section">
+              <h5>Built</h5>
+              <ul>
+                <li>AI Text Humanizer</li>
+                <li>Custom LLM Fine-Tuning Pipelines</li>
+                <li>Style Transfer Models</li>
+              </ul>
+            </div>
+            <div class="card-section">
+              <h5>Tech</h5>
+              <div class="tech-tags">
+                <span>Mistral</span><span>Qwen</span><span>LoRA</span><span>QLoRA</span><span>DPO</span><span>Hugging Face</span><span>OpenAI</span><span>Claude</span>
+              </div>
             </div>
           </div>
 
-          <div class="skills-box">
-            <div class="skills-info">
-              <i class='bx bx-stats'></i>
-              <h4>Data Science</h4>
-              <p>Skilled in data analysis, visualization, and statistical modeling, with a strong ability to extract actionable insights from complex datasets.</p>
+          <div class="expertise-card">
+            <i class='bx bx-search-alt-2'></i>
+            <h3>RAG Systems</h3>
+            <div class="card-section">
+              <h5>Built</h5>
+              <ul>
+                <li>Talk2PDF</li>
+                <li>Enterprise Document Intelligence</li>
+                <li>Hybrid Search Pipelines</li>
+              </ul>
+            </div>
+            <div class="card-section">
+              <h5>Tech</h5>
+              <div class="tech-tags">
+                <span>LangChain</span><span>Vector DBs</span><span>Pinecone</span><span>Weaviate</span><span>Embeddings</span><span>Hybrid Search</span>
+              </div>
             </div>
           </div>
 
-          <div class="skills-box">
-            <div class="skills-info">
-              <i class='bx bx-code-alt'></i>
-              <h4>Full-Stack Development</h4>
-              <p>Experienced in full-stack development, adept at building robust applications from the ground up.</p>
+          <div class="expertise-card">
+            <i class='bx bx-bot'></i>
+            <h3>AI Agents &amp; Automation</h3>
+            <div class="card-section">
+              <h5>Built</h5>
+              <ul>
+                <li>Autonomous Workflow Agents</li>
+                <li>Multi-tool Agent Systems</li>
+                <li>Business Process Automation</li>
+              </ul>
+            </div>
+            <div class="card-section">
+              <h5>Tech</h5>
+              <div class="tech-tags">
+                <span>LangChain</span><span>MCP</span><span>Tool Calling</span><span>n8n</span><span>Workflow Design</span>
+              </div>
             </div>
           </div>
 
+          <div class="expertise-card">
+            <i class='bx bx-code-alt'></i>
+            <h3>Full-Stack &amp; Cloud Engineering</h3>
+            <div class="card-section">
+              <h5>Built</h5>
+              <ul>
+                <li>CNG Price Predictor</li>
+                <li>Flight Fare Prediction</li>
+                <li>TRYONline</li>
+              </ul>
+            </div>
+            <div class="card-section">
+              <h5>Tech</h5>
+              <div class="tech-tags">
+                <span>Python</span><span>FastAPI</span><span>Node.js</span><span>React</span><span>AWS</span><span>Bedrock</span><span>Docker</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="expertise-card">
+            <i class='bx bx-bulb'></i>
+            <h3>AI Consulting</h3>
+            <div class="card-section">
+              <h5>Delivered</h5>
+              <ul>
+                <li>AI Integration Strategy for Legacy Systems</li>
+                <li>Open-Source LLM Fine-Tuning &amp; On-Premise Deployment</li>
+                <li>RAG Proposal Generator for BA Team</li>
+              </ul>
+            </div>
+            <div class="card-section">
+              <h5>Tech</h5>
+              <div class="tech-tags">
+                <span>Solution Architecture</span><span>API Integration</span><span>Fine-Tuning Strategy</span><span>On-Premise Deployment</span><span>RAG</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="skill-chips">
+          <div class="chip-cluster">
+            <h6>Languages &amp; Core</h6>
+            <div class="chips">
+              <span>Python</span><span>TypeScript</span><span>JavaScript</span><span>SQL</span>
+            </div>
+          </div>
+          <div class="chip-cluster">
+            <h6>AI / ML</h6>
+            <div class="chips">
+              <span>PyTorch</span><span>TensorFlow</span><span>LangChain</span><span>OpenAI</span><span>Claude</span><span>Mistral</span><span>Qwen</span><span>OpenCV</span><span>FFmpeg</span><span>Hugging Face</span>
+            </div>
+          </div>
+          <div class="chip-cluster">
+            <h6>Infrastructure &amp; Web</h6>
+            <div class="chips">
+              <span>AWS</span><span>Bedrock</span><span>Docker</span><span>FastAPI</span><span>Node.js</span><span>React</span><span>n8n</span><span>MCP</span>
+            </div>
+          </div>
         </div>
 
       </section>
 
       <section class="projects" id="projects">
-        <h2 class="heading">Projects</h2>
+        <h2 class="heading">Featured <span>Projects</span></h2>
 
-        <div class="projects-box">
-
-          <div class="project-card">
-            <img src="project1.jpg" alt="">
-
-            <h3>Talk2PDF</h3>
-
-            <p> A chatbot that let's you interact with custom PDF uploaded by the user.</p>
-            
-            <a href="https://github.com/Jaxkirat/Talk2PDF" class="btn">Review Project</a>
-
-          </div>
-
-          <div class="project-card">
-            <img src="project4.jpg" alt="">
-
-            <h3>TRYONline</h3>
-
-            <p> A virtual clothes fitting room. Created by using Diffusion and Computer Vision.</p>
-
-            <a href="https://github.com/Jaxkirat/TRYONline" class="btn">Review Project</a>
-
-          </div>
-
-          <div class="project-card">
-            <img src="project2.jpg" alt="">
-
-            <h3>CNG Price Predictor</h3>
-
-            <p>A full-stack Natural Gas Price Predcition application. I made this project during my internship at ONGC.</p>
-
-            <a href="https://github.com/Jaxkirat/Natural-Gas-Price-Prediction-App" class="btn">Review Project</a>
-
-          </div>
-
-          <div class="project-card">
-            <img src="project3.png" alt="">
-
-            <h3>Flight Fare Predcition</h3>
-
-            <p>A full-stack price prediction application that let's user know the future fare of their particular flight based on their preferences. </p>
-
-            <a href="https://github.com/Jaxkirat/Flight-Fare-Prediction" class="btn">Review Project</a>
-
-          </div>
-
-
+        <div class="project-tabs" role="tablist">
+          <button class="tab active" data-tab="featured">Featured</button>
+          <button class="tab" data-tab="enterprise">Enterprise AI</button>
+          <button class="tab" data-tab="agents">AI Agents</button>
+          <button class="tab" data-tab="personal">Personal Projects</button>
+          <button class="tab" data-tab="ml">Machine Learning</button>
         </div>
+
+        <div class="projects-grid" data-active-tab="featured"></div>
       </section>
 
       <section class="contact" id="contact">
@@ -211,6 +296,7 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
